@@ -1,0 +1,15 @@
+body {
+  text-align:center;
+  width:200px;
+}
+
+.title {
+  width:80%;
+  color:white;
+  background:linear-gradient(#01a9e1, #5bc4bc);
+  border-width:0px;
+  border-radius:20px;
+  padding:10px;
+  font-weight: bold;
+  margin: 0 auto;
+}
