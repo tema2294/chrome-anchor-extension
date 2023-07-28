@@ -1,6 +1,6 @@
 {
-    "name": "Test-extension",
-    "description": "mow mow",
+    "name": "Chrome SysUtils 2035",
+    "description": "Helper tools for people who work with the sfera.",
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
@@ -12,7 +12,8 @@
     "action": {
         "default_popup":"popup.html"
     },
-    "permissions": ["scripting", "activeTab", "contextMenus","tabCapture", "offscreen"],
+    "permissions": ["scripting","webNavigation", "activeTab", "contextMenus","tabCapture", "offscreen"],
+    "host_permissions": ["<all_urls>"],
     "background": {
         "service_worker": "background.js",
         "type": "module"
